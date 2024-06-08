@@ -34,7 +34,6 @@ int main()
 {
 	int array[] = { 1, 9, 4, 7, 3, 7, 2, 1, 8, 9, 5 };
 	int size = sizeof(array) / sizeof(int);
-	cout << "Minimum number of jumps to reach at the other end is "
-		<< minJump(array, size);
+	cout << "Minimum number of jumps to reach at the other end is "<< minJump(array, size);
 	return 0;
 }
